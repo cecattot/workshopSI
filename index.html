@@ -190,11 +190,13 @@
     </div>
 </div>
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<!-- SweetAlert2 Script -->
+<!--&lt;!&ndash; SweetAlert2 Script &ndash;&gt;-->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
 <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-    window.onload = function () {
+    new window.VLibras.Widget('https://vlibras.gov.br/app')
+</script>
+<script>
+
         Swal.fire({
             title: 'Informação Importante',
             text: 'O evento contará com tradução do par linguístico LIBRAS-Língua Portuguesa.',
@@ -204,7 +206,7 @@
             padding: '1em',
             backdrop: true
         });
-    };
+
 </script>
 </body>
 </html>
